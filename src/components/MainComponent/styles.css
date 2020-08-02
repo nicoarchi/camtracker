@@ -1,0 +1,80 @@
+.textMain {
+  color: #0f385b;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.tituloRecords {
+  color: #0f385b;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.btnStart {
+  background-color: #3a9610;
+  border: 0px;
+  color: white;
+  margin: 10px;
+  opacity: 0.65;
+  font-size: 16px;
+
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btnStop {
+  background-color: #f71616;
+  border: 0px;
+  color: white;
+  margin: 10px;
+  opacity: 0.55;
+  font-size: 16px;
+
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btnRecords {
+  background-color: #0f385b;
+  border: 0px;
+  color: white;
+  margin: 10px;
+  opacity: 0.65;
+  font-size: 16px;
+
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btnAbout {
+  background-color: #5b2b0f;
+  color: white;
+  margin: 10px;
+  opacity: 0.65;
+  font-size: 16px;
+
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btnStart:hover {
+  opacity: 1;
+}
+.btnStop:hover {
+  opacity: 1;
+}
+.btnRecords:hover {
+  opacity: 1;
+}
+.btnAbout:hover {
+  opacity: 1;
+}
+
+.video {
+  margin-top: 20px;
+  max-width: 100%;
+}
+.record {
+  max-width: 100%;
+}

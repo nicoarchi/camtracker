@@ -1,0 +1,49 @@
+.textAbout1 {
+  color: #0f385b;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
+  margin-top: 50px;
+}
+
+.textAbout2 {
+  color: #0f385b;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.botones {
+  margin-top: 40px;
+}
+
+.botonAzul {
+  background-color: #0f385b;
+  color: white;
+  margin: 10px;
+  opacity: 0.65;
+  font-size: 16px;
+  margin: 0 15px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.botonAmarillo {
+  background-color: #5b2b0f;
+  color: white;
+  opacity: 0.65;
+  font-size: 16px;
+  margin: 0 15px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.botonAzul:hover {
+  opacity: 1;
+}
+
+.botonAmarillo:hover {
+  opacity: 1;
+}
