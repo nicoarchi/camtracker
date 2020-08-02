@@ -83,7 +83,7 @@ const MainComponent = (props) => {
     }
 
     recordingRef.current = true;
-    console.log("start recording");
+    console.log("Start recording");
 
     recorderRef.current = new MediaRecorder(window.stream);
 
@@ -104,7 +104,7 @@ const MainComponent = (props) => {
     }
     recordingRef.current = false;
     recorderRef.current.stop();
-    console.log("stopped recording");
+    console.log("Stopped recording");
     lastDetectionsRef.current = [];
   }
 
@@ -131,6 +131,7 @@ const MainComponent = (props) => {
             stopButtonElement.current.removeAttribute("disabled");
             startButtonElement.current.setAttribute("disabled", true);
             detectFrame();
+            console.log("Start");
           }}
           ref={startButtonElement}
         >
@@ -143,6 +144,7 @@ const MainComponent = (props) => {
             startButtonElement.current.removeAttribute("disabled");
             stopButtonElement.current.setAttribute("disabled", true);
             stopRecording();
+            console.log("Stop");
           }}
           ref={stopButtonElement}
         >

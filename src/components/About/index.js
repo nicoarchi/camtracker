@@ -9,22 +9,22 @@ const About = (props) => {
       <div className="textAbout2">For any information contact me.</div>
 
       <div className="botones">
-        <Link
-          to="https://www.linkedin.com/in/nicoarchi"
+        <a
+          href="https://www.linkedin.com/in/nicoarchi"
           className="botonAzul"
           target="_blank"
           rel="noopener noreferrer"
         >
           Linkedin
-        </Link>
-        <Link
-          to="https://github.com/nicoarchi"
+        </a>
+        <a
+          href="https://github.com/nicoarchi"
           className="botonAzul"
           target="_blank"
           rel="noopener noreferrer"
         >
           GitHub
-        </Link>
+        </a>
         <Link to="/" className="botonAmarillo">
           Back to App
         </Link>
