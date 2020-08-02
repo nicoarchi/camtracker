@@ -14,9 +14,7 @@ The recordings can be downloaded as video or image, but will disappear in the ap
 
 ### website
 
-Visit the demo in this link:
-
-#### [https://camtracker.netlify.app](https://camtracker.netlify.app)
+not yet available
 
 ### npm start
 
