@@ -10,7 +10,7 @@ const MainComponent = (props) => {
   const startButtonElement = useRef(null);
   const stopButtonElement = useRef(null);
   const [show, toggleShow] = React.useState(false);
-  const shouldRecordRef = useRef(false);
+  const shouldRecordRef = useRef(null);
   const modelRef = useRef(null);
   const recordingRef = useRef(false);
   const lastDetectionsRef = useRef([]);
