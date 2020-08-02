@@ -13,6 +13,7 @@ const About = (props) => {
           to="https://www.linkedin.com/in/nicoarchi"
           className="botonAzul"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Linkedin
         </Link>
@@ -20,6 +21,7 @@ const About = (props) => {
           to="https://github.com/nicoarchi"
           className="botonAzul"
           target="_blank"
+          rel="noopener noreferrer"
         >
           GitHub
         </Link>

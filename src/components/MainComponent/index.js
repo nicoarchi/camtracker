@@ -162,20 +162,19 @@ const MainComponent = (props) => {
             closed.
           </div>
           <div className="tituloRecords">Records:</div>
-          <div className="recordsBody">
-            {!records.length
-              ? null
-              : records.map((record) => {
-                  return (
-                    <div className="card mt-3 w-100" key={record.title}>
-                      <div className="card-body">
-                        <h5 className="card-title">{record.title}</h5>
-                        <video controls src={record.href}></video>
-                      </div>
+
+          {!records.length
+            ? null
+            : records.map((record) => {
+                return (
+                  <div className="card mt-3 w-100" key={record.title}>
+                    <div className="card-body">
+                      <h5 className="card-title">{record.title}</h5>
+                      <video controls src={record.href}></video>
                     </div>
-                  );
-                })}
-          </div>
+                  </div>
+                );
+              })}
         </div>
       )}
     </div>
