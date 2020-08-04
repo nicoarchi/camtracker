@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/camtracker/static/css/main.fb00a589.chunk.css",
+    "main.js": "/camtracker/static/js/main.fb21b145.chunk.js",
+    "main.js.map": "/camtracker/static/js/main.fb21b145.chunk.js.map",
+    "runtime-main.js": "/camtracker/static/js/runtime-main.d0c21e61.js",
+    "runtime-main.js.map": "/camtracker/static/js/runtime-main.d0c21e61.js.map",
+    "static/js/2.feb21543.chunk.js": "/camtracker/static/js/2.feb21543.chunk.js",
+    "static/js/2.feb21543.chunk.js.map": "/camtracker/static/js/2.feb21543.chunk.js.map",
+    "index.html": "/camtracker/index.html",
+    "precache-manifest.f0a68de0cfccc05918dedf2fccaa3ad2.js": "/camtracker/precache-manifest.f0a68de0cfccc05918dedf2fccaa3ad2.js",
+    "service-worker.js": "/camtracker/service-worker.js",
+    "static/css/main.fb00a589.chunk.css.map": "/camtracker/static/css/main.fb00a589.chunk.css.map",
+    "static/js/2.feb21543.chunk.js.LICENSE.txt": "/camtracker/static/js/2.feb21543.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0c21e61.js",
+    "static/js/2.feb21543.chunk.js",
+    "static/css/main.fb00a589.chunk.css",
+    "static/js/main.fb21b145.chunk.js"
+  ]
+}
